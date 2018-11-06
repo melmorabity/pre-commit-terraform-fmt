@@ -1,0 +1,7 @@
+---
+- id: terraform-fmt
+  name: Rewrite Terraform configuration files to a canonical format and style
+  entry: terraform-fmt
+  language: python
+  files: (\.tf|\.tfvars)$
+  exclude: \.terraform\/.*$
